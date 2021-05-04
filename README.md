@@ -31,3 +31,16 @@ go run main.go .
 	│	└───js
 	└───zline
 ```
+## Installation
+* Make sure that you have ```Go``` installed.
+* In the project root run:
+```
+go install
+```
+## Usage
+The program accepts arguments in the following format:
+```
+treefy [path] [-f]
+```
+```[path]``` -- path to the directory
+```[-f]``` -- optional flag: output files
