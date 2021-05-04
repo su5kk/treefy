@@ -3,9 +3,7 @@ This is a small CLI that creates a tree view for the directory. In addition, if 
 
 With ```-f``` flag
 ```
-go run main.go . -f
-├───main.go (1881b)
-├───main_test.go (1318b)
+treefy testdata -f
 └───testdata
 	├───project
 	│	├───file.txt (19b)
@@ -22,7 +20,7 @@ go run main.go . -f
 	└───zzfile.txt (empty)
 ```
 ```
-go run main.go .
+treefy testdata
 └───testdata
 	├───project
 	├───static
